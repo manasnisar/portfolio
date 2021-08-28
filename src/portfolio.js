@@ -112,7 +112,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Comsats University Islamabad",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/comsats-logo.jpg"),
       subHeader: "Bachelor of Science in Software Engineering",
       duration: "September 2016 - April 2020",
       desc: "Ranked top 5% in the program. Took courses about Software Engineering, Web Security, Operating Systems, Visual Programming, Database Designs, Project Management, ...",
@@ -166,7 +166,7 @@ const workExperiences = {
       descBullets: [
         "Architected and build solutions for clients on freelance platforms",
         "Gathered requirements, translated to scalable solutions and deployed over various platforms",
-        "Kept communication alive with clients, entertained revision request and closed contracts gracefully",
+        "Kept communication alive with clients, entertained revision requests and closed contracts gracefully",
       ]
     },
   ]
