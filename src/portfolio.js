@@ -112,7 +112,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Comsats University Islamabad",
-      logo: require("./assets/images/comsats-logo.jpg"),
+      logo: require("./assets/images/comsats-logo.png"),
       subHeader: "Bachelor of Science in Software Engineering",
       duration: "September 2016 - April 2020",
       desc: "Ranked top 5% in the program. Took courses about Software Engineering, Web Security, Operating Systems, Visual Programming, Database Designs, Project Management, ...",
@@ -187,7 +187,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/big-logo.jpg"),
+      image: require("./assets/images/big-logo.png"),
       projectName: "Skipify",
       projectDesc: "Frictionless Commerce, Secure Omni Channel Payments",
       footerLink: [
