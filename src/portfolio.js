@@ -150,7 +150,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Sectem Technologies",
       companylogo: require("./assets/images/sectem-logo.png"),
-      date: "August 2019 – Present",
+      date: "March 2019 – Present",
       descBullets: [
         "Conceptualizing, designing and building technical solutions using JavaScript",
         "Working with both SAAS and On-Premises based product development",
@@ -162,7 +162,7 @@ const workExperiences = {
       role: "MERN Stack Developer",
       company: "Freelance",
       companylogo: require("./assets/images/freelance-logo.jpg"),
-      date: "March 2019 – August 2019",
+      date: "August 2018 – March 2019",
       descBullets: [
         "Architected and build solutions for clients on freelance platforms",
         "Gathered requirements, translated to scalable solutions and deployed over various platforms",
