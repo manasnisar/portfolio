@@ -15,7 +15,7 @@ const greeting = {
   title: "Hi, I'm Anas",
   subTitle: "A passionate Full Stack Developer experienced in building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
   resumeLink:
-    "https://docs.google.com/document/d/1J12UgX7g6Td26Te1zJz-_CqMhy2vJkSJ/edit?usp=sharing&ouid=115776562961234848638&rtpof=true&sd=true",
+    "https://drive.google.com/file/d/1yzA7vyPOf8odxI1KUBxc7Va8RDj6XXVe/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
