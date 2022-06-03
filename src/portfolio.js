@@ -2,18 +2,27 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
+import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+
+// Splash Screen
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000 // Set animation duration as per your animation
+};
+
 // Summary And Greeting Section
 
-import emoji from "react-easy-emoji";
-
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: true // Set to false to use static SVG
 };
 
 const greeting = {
   username: "Muhammad Anas Nisar",
   title: "Hi, I'm Anas",
-  subTitle: "A passionate Full Stack Developer experienced in building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
+  subTitle: "A highly driven and autonomous software engineer experienced in building Web applications using JavaScript / Golang and some other cool libraries and frameworks.",
   resumeLink:
     "https://drive.google.com/file/d/1yzA7vyPOf8odxI1KUBxc7Va8RDj6XXVe/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -30,79 +39,84 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
+
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "AN ASPIRING GENERALIST WHO WANTS TO EXPLORE AS MANY TECHs AS POSSIBLE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Develop highly interactive Front End / User Interfaces for web applications"
     ),
     emoji("⚡ Design, build and improve fault-tolerant API, microservices and cloud architecture to ensure optimal performance and experience"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / GCP/ Braintree"
+      "⚡ Integrate with third party services and platforms such as Firebase / GCP/ Bigcommerce"
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "MongoDB",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Redis",
-      fontAwesomeClassname: "fas fa-box"
-    },
-    {
-      skillName: "GCP",
-      fontAwesomeClassname: "fas fa-cloud"
-    },
-  ],
-  display: true // Set false to hide this section, defaults to true
+softwareSkills: [
+  {
+    skillName: "html-5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "css3",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: "fab fa-js"
+  },
+  {
+    skillName: "Golang",
+    fontAwesomeClassname: "fa-brands fa-golang"
+  },
+  {
+    skillName: "sass",
+    fontAwesomeClassname: "fab fa-sass"
+  },
+  {
+    skillName: "reactjs",
+    fontAwesomeClassname: "fab fa-react"
+  },
+  {
+    skillName: "nodejs",
+    fontAwesomeClassname: "fab fa-node"
+  },
+  {
+    skillName: "npm",
+    fontAwesomeClassname: "fab fa-npm"
+  },
+  {
+    skillName: "sql-database",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "aws",
+    fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+    skillName: "docker",
+    fontAwesomeClassname: "fab fa-docker"
+  },
+  {
+    skillName: "MongoDB",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "Redis",
+    fontAwesomeClassname: "fas fa-box"
+  },
+  {
+    skillName: "GCP",
+    fontAwesomeClassname: "fas fa-cloud"
+  },
+],
+display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -114,20 +128,19 @@ const educationInfo = {
       schoolName: "Comsats University Islamabad",
       logo: require("./assets/images/comsats-logo.png"),
       subHeader: "Bachelor of Science in Software Engineering",
-      duration: "September 2016 - April 2020",
+      duration: "September 2018 - August 2022",
       desc: "Ranked top 5% in the program. Took courses about Software Engineering, Web Security, Operating Systems, Visual Programming, Database Designs, Project Management, ...",
     }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -135,7 +148,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "95%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -148,25 +161,23 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
+      company: "Skipify",
+      companylogo: require("./assets/images/freelance-logo.jpg"),
+      date: "Jan 2021 – Present",
+      descBullets: [
+
+      ]
+    },
+    {
+      role: "Software Engineer",
       company: "Sectem Technologies",
       companylogo: require("./assets/images/sectem-logo.png"),
-      date: "March 2019 – Present",
+      date: "August 2020 – Jan 2021",
       descBullets: [
         "Conceptualizing, designing and building technical solutions using JavaScript",
         "Working with both SAAS and On-Premises based product development",
         "Hands on experience with serverless tech stack and microservices architecture",
         "Following agile methodologies and scrum practices"
-      ]
-    },
-    {
-      role: "MERN Stack Developer",
-      company: "Freelance",
-      companylogo: require("./assets/images/freelance-logo.jpg"),
-      date: "August 2018 – March 2019",
-      descBullets: [
-        "Architected and build solutions for clients on freelance platforms",
-        "Gathered requirements, translated to scalable solutions and deployed over various platforms",
-        "Kept communication alive with clients, entertained revision requests and closed contracts gracefully",
       ]
     },
   ]
@@ -259,7 +270,6 @@ const achievementSection = {
   ],
   display: false // Set false to hide this section, defaults to true
 };
-
 // Blogs Section
 
 const blogSection = {
@@ -283,6 +293,7 @@ const blogSection = {
   ],
   display: false // Set false to hide this section, defaults to true
 };
+
 
 // Talks Sections
 
@@ -335,6 +346,7 @@ export {
   illustration,
   greeting,
   socialMediaLinks,
+  splashScreen,
   skillsSection,
   educationInfo,
   techStack,

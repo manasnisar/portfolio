@@ -1,5 +1,9 @@
 @font-face {
-  font-family: 'WindSong', cursive;
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"),
+    url("./assets/fonts/Agustina.woff") format("woff");
   font-display: swap;
 }
 @font-face {
@@ -26,7 +30,7 @@ body {
 @media (max-width: 1380px) {
   html,
   body {
-    font-size: 16px;
+    font-size: rem;
     line-height: normal;
   }
 }
