@@ -191,7 +191,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/big-logo.png"),
+      image: require("./assets/images/skipify.svg"),
       projectName: "Skipify",
       projectDesc: "Frictionless Commerce, Secure Omni Channel Payments",
       footerLink: [
