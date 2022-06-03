@@ -22,7 +22,8 @@ const illustration = {
 const greeting = {
   username: "Muhammad Anas Nisar",
   title: "Hi, I'm Anas",
-  subTitle: "A highly driven and autonomous software engineer experienced in building Web applications using JavaScript / Golang and some other cool libraries and frameworks.",
+  subTitle:
+    "A highly driven and autonomous software engineer experienced in building Web applications using JavaScript / Golang and some other cool libraries and frameworks.",
   resumeLink:
     "https://drive.google.com/file/d/1yzA7vyPOf8odxI1KUBxc7Va8RDj6XXVe/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -39,17 +40,19 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
-
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "AN ASPIRING GENERALIST WHO WANTS TO EXPLORE AS MANY TECHs AS POSSIBLE",
+  subTitle:
+    "AN ASPIRING GENERALIST WHO WANTS TO EXPLORE AS MANY TECHs AS POSSIBLE",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front End / User Interfaces for web applications"
     ),
-    emoji("⚡ Design, build and improve fault-tolerant API, microservices and cloud architecture to ensure optimal performance and experience"),
+    emoji(
+      "⚡ Design, build and improve fault-tolerant API, microservices and cloud architecture to ensure optimal performance and experience"
+    ),
     emoji(
       "⚡ Integrate with third party services and platforms such as Firebase / GCP/ Bigcommerce"
     )
@@ -58,65 +61,65 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
-  {
-    skillName: "html-5",
-    fontAwesomeClassname: "fab fa-html5"
-  },
-  {
-    skillName: "css3",
-    fontAwesomeClassname: "fab fa-css3-alt"
-  },
-  {
-    skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js"
-  },
-  {
-    skillName: "Golang",
-    fontAwesomeClassname: "fa-brands fa-golang"
-  },
-  {
-    skillName: "sass",
-    fontAwesomeClassname: "fab fa-sass"
-  },
-  {
-    skillName: "reactjs",
-    fontAwesomeClassname: "fab fa-react"
-  },
-  {
-    skillName: "nodejs",
-    fontAwesomeClassname: "fab fa-node"
-  },
-  {
-    skillName: "npm",
-    fontAwesomeClassname: "fab fa-npm"
-  },
-  {
-    skillName: "sql-database",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "aws",
-    fontAwesomeClassname: "fab fa-aws"
-  },
-  {
-    skillName: "docker",
-    fontAwesomeClassname: "fab fa-docker"
-  },
-  {
-    skillName: "MongoDB",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "Redis",
-    fontAwesomeClassname: "fas fa-box"
-  },
-  {
-    skillName: "GCP",
-    fontAwesomeClassname: "fas fa-cloud"
-  },
-],
-display: true // Set false to hide this section, defaults to true
+  softwareSkills: [
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Golang",
+      fontAwesomeClassname: "fa-brands fa-golang"
+    },
+    {
+      skillName: "sass",
+      fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "fas fa-box"
+    },
+    {
+      skillName: "GCP",
+      fontAwesomeClassname: "fas fa-cloud"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -129,7 +132,7 @@ const educationInfo = {
       logo: require("./assets/images/comsats-logo.png"),
       subHeader: "Bachelor of Science in Software Engineering",
       duration: "September 2018 - August 2022",
-      desc: "Ranked top 5% in the program. Took courses about Software Engineering, Web Security, Operating Systems, Visual Programming, Database Designs, Project Management, ...",
+      desc: "Ranked top 5% in the program. Took courses about Software Engineering, Web Security, Operating Systems, Visual Programming, Database Designs, Project Management, ..."
     }
   ]
 };
@@ -164,9 +167,7 @@ const workExperiences = {
       company: "Skipify",
       companylogo: require("./assets/images/freelance-logo.jpg"),
       date: "Jan 2021 – Present",
-      descBullets: [
-
-      ]
+      descBullets: []
     },
     {
       role: "Software Engineer",
@@ -179,7 +180,7 @@ const workExperiences = {
         "Hands on experience with serverless tech stack and microservices architecture",
         "Following agile methodologies and scrum practices"
       ]
-    },
+    }
   ]
 };
 
@@ -208,7 +209,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -224,8 +225,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "",
-      subtitle:
-        "",
+      subtitle: "",
       // image: require(""),
       footerLink: [
         {
@@ -244,8 +244,7 @@ const achievementSection = {
     },
     {
       title: "",
-      subtitle:
-        "",
+      subtitle: "",
       // image: require(""),
       footerLink: [
         {
@@ -281,27 +280,22 @@ const blogSection = {
     {
       url: "",
       title: "",
-      description:
-        ""
+      description: ""
     },
     {
       url: "",
       title: "",
-      description:
-        ""
+      description: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
 };
 
-
 // Talks Sections
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY KNOWLEDGE"
-  ),
+  subtitle: emoji("I LOVE TO SHARE MY KNOWLEDGE"),
 
   talks: [
     {
@@ -321,9 +315,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
