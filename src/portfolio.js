@@ -23,7 +23,7 @@ const greeting = {
   username: "Muhammad Anas Nisar",
   title: "Hi, I'm Anas",
   subTitle:
-    "A highly driven and autonomous software engineer experienced in building Web applications using JavaScript / Golang and some other cool libraries and frameworks.",
+    "A highly driven and autonomous software engineer experienced in building web applications using JavaScript, Golang and other cool technologies",
   resumeLink:
     "https://drive.google.com/file/d/1yzA7vyPOf8odxI1KUBxc7Va8RDj6XXVe/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -54,7 +54,7 @@ const skillsSection = {
       "⚡ Design, build and improve fault-tolerant API, microservices and cloud architecture to ensure optimal performance and experience"
     ),
     emoji(
-      "⚡ Integrate with third party services and platforms such as Firebase / GCP/ Bigcommerce"
+      "⚡ Integrate with third party services and platforms such as Firebase / GCP / Bigcommerce"
     )
   ],
 
@@ -120,7 +120,7 @@ const educationInfo = {
       logo: require("./assets/images/comsats-logo.png"),
       subHeader: "Bachelor of Science in Software Engineering",
       duration: "September 2018 - August 2022",
-      desc: "Ranked top 5% in the program. Took courses about Software Engineering, Web Security, Operating Systems, Visual Programming, Database Designs, Project Management, ..."
+      desc: "Maintaing a CGPA of 3.45. Took courses about Software Engineering, Web Security, Operating Systems, Visual Programming, Database Designs, Project Management, ..."
     }
   ]
 };
@@ -135,7 +135,7 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "90%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
@@ -153,9 +153,13 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Skipify",
-      companylogo: require("./assets/images/freelance-logo.jpg"),
+      companylogo: require("./assets/images/skipify.svg"),
       date: "Jan 2021 – Present",
-      descBullets: []
+      descBullets: [
+        "Worked with a remote team spread across two continents to produce features to showcase, out of thin air, allowing the startup to draw investments",
+        "Optimized 1-Touch shopping experience for E-Commerce channels currently being used by hundreds of users across multiple merchants",
+        "Built, released and supported/improved an in-house POC auth solution using backend technologies such as Golang, Redis and SQL",
+      ]
     },
     {
       role: "Software Engineer",
@@ -163,10 +167,10 @@ const workExperiences = {
       companylogo: require("./assets/images/sectem-logo.png"),
       date: "August 2020 – Jan 2021",
       descBullets: [
-        "Conceptualizing, designing and building technical solutions using JavaScript",
-        "Working with both SAAS and On-Premises based product development",
+        "Designed and built technical solutions as part of a team for various international clients",
+        "Worked with both SAAS and On-Premises based product development",
         "Hands on experience with serverless tech stack and microservices architecture",
-        "Following agile methodologies and scrum practices"
+        "Followed agile methodologies and scrum practices"
       ]
     }
   ]
