@@ -158,7 +158,7 @@ const workExperiences = {
       descBullets: [
         "Worked with a remote team spread across two continents to produce features to showcase, out of thin air, allowing the startup to draw investments",
         "Optimized 1-Touch shopping experience for E-Commerce channels currently being used by hundreds of users across multiple merchants",
-        "Built, released and supported/improved an in-house POC auth solution using backend technologies such as Golang, Redis and SQL",
+        "Built, released and supported/improved an in-house POC auth solution using backend technologies such as Golang, Redis and SQL"
       ]
     },
     {
