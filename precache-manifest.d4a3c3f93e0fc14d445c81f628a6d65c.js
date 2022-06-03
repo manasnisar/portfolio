@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e78f7c2a84afbec9debec1bc56c3c7f",
+    "revision": "ffd433fc7261d9a8daed30174e475c20",
     "url": "/index.html"
   },
   {
-    "revision": "f3dc4f48110e9878d1ae",
+    "revision": "3087ff9642ff89e0dcb1",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "b3c3af59d011ae89da1e",
+    "revision": "59b2adc64a2ccd531306",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "ab8fe0de9f6c72f1adf2",
+    "revision": "a07361c64420d86a316d",
     "url": "/static/css/main.d6a1315a.chunk.css"
   },
   {
-    "revision": "10257a48ea0b8cce9ed3",
-    "url": "/static/js/2.ceba38d9.chunk.js"
+    "revision": "2ad700ea442c48da73ed",
+    "url": "/static/js/2.27bc76e4.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.ceba38d9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.27bc76e4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f3dc4f48110e9878d1ae",
-    "url": "/static/js/3.4cf9e453.chunk.js"
+    "revision": "3087ff9642ff89e0dcb1",
+    "url": "/static/js/3.f15e8d17.chunk.js"
   },
   {
-    "revision": "b3c3af59d011ae89da1e",
-    "url": "/static/js/4.439dc398.chunk.js"
+    "revision": "59b2adc64a2ccd531306",
+    "url": "/static/js/4.f55a9385.chunk.js"
   },
   {
-    "revision": "ab8fe0de9f6c72f1adf2",
-    "url": "/static/js/main.47f6f9f1.chunk.js"
+    "revision": "a07361c64420d86a316d",
+    "url": "/static/js/main.60a6386b.chunk.js"
   },
   {
-    "revision": "a841901a314e71d601f9",
-    "url": "/static/js/runtime-main.e0fc6318.js"
+    "revision": "745732eb3de563b2db1e",
+    "url": "/static/js/runtime-main.31dde9b6.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
-  },
-  {
-    "revision": "52c73b3e1a9913942eb8a6d83c853af5",
-    "url": "/static/media/big-logo.52c73b3e.png"
   },
   {
     "revision": "925b5a01ac6a12940870d5b2f4a829e1",
