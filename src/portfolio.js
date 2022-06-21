@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A highly driven and autonomous software engineer experienced in building web applications using JavaScript, Golang and other cool technologies",
   resumeLink:
-    "https://drive.google.com/file/d/1rH5GznCIe8XAeK5cww-ga8itgDNfrakD/view?usp=sharing",
+    "https://drive.google.com/file/d/1UvRP5SLRKWSrf8QvtL3T6qP5RWdd1f5j/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
