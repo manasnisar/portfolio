@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A highly driven and autonomous software engineer experienced in building web applications using JavaScript, Golang and other cool technologies",
   resumeLink:
-    "https://drive.google.com/file/d/1J4NHidFBpUIp8SEQJ4gpIZ7q5VRiOhK0/view?usp=sharing",
+    "https://drive.google.com/file/d/1rH5GznCIe8XAeK5cww-ga8itgDNfrakD/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -165,7 +165,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Sectem Technologies",
       companylogo: require("./assets/images/sectem-logo.png"),
-      date: "August 2020 – Jan 2021",
+      date: "Jan 2020 – Jan 2021",
       descBullets: [
         "Designed and built technical solutions as part of a team for various international clients",
         "Worked with both SAAS and On-Premises based product development",
