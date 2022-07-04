@@ -176,7 +176,7 @@ const workExperiences = {
     {
       role: "Web Developer",
       company: "Fiverr",
-      companylogo: require("./assets/images/sectem-logo.png"),
+      companylogo: require("./assets/images/fiverr-logo.png"),
       date: "Jan 2019 – Aug 2019",
       descBullets: [
         "Designed and built technical solutions for various international using MERN Stack",
