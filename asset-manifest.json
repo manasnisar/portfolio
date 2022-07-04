@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.d6a1315a.chunk.css",
-    "main.js": "/static/js/main.680ab197.chunk.js",
-    "main.js.map": "/static/js/main.680ab197.chunk.js.map",
+    "main.js": "/static/js/main.bce8f2e1.chunk.js",
+    "main.js.map": "/static/js/main.bce8f2e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.31dde9b6.js",
     "runtime-main.js.map": "/static/js/runtime-main.31dde9b6.js.map",
-    "static/js/2.27bc76e4.chunk.js": "/static/js/2.27bc76e4.chunk.js",
-    "static/js/2.27bc76e4.chunk.js.map": "/static/js/2.27bc76e4.chunk.js.map",
+    "static/js/2.5389bf11.chunk.js": "/static/js/2.5389bf11.chunk.js",
+    "static/js/2.5389bf11.chunk.js.map": "/static/js/2.5389bf11.chunk.js.map",
     "static/css/3.df879eac.chunk.css": "/static/css/3.df879eac.chunk.css",
     "static/js/3.f15e8d17.chunk.js": "/static/js/3.f15e8d17.chunk.js",
     "static/js/3.f15e8d17.chunk.js.map": "/static/js/3.f15e8d17.chunk.js.map",
@@ -14,12 +14,12 @@
     "static/js/4.f55a9385.chunk.js": "/static/js/4.f55a9385.chunk.js",
     "static/js/4.f55a9385.chunk.js.map": "/static/js/4.f55a9385.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ddee41f7b16b1db450939ecb7651c6da.js": "/precache-manifest.ddee41f7b16b1db450939ecb7651c6da.js",
+    "precache-manifest.3e19b8cfca7e75edf10385a9d0d01903.js": "/precache-manifest.3e19b8cfca7e75edf10385a9d0d01903.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.df879eac.chunk.css.map": "/static/css/3.df879eac.chunk.css.map",
     "static/css/4.e91a4b36.chunk.css.map": "/static/css/4.e91a4b36.chunk.css.map",
     "static/css/main.d6a1315a.chunk.css.map": "/static/css/main.d6a1315a.chunk.css.map",
-    "static/js/2.27bc76e4.chunk.js.LICENSE.txt": "/static/js/2.27bc76e4.chunk.js.LICENSE.txt",
+    "static/js/2.5389bf11.chunk.js.LICENSE.txt": "/static/js/2.5389bf11.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/comsats-logo.png": "/static/media/comsats-logo.925b5a01.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.31dde9b6.js",
-    "static/js/2.27bc76e4.chunk.js",
+    "static/js/2.5389bf11.chunk.js",
     "static/css/main.d6a1315a.chunk.css",
-    "static/js/main.680ab197.chunk.js"
+    "static/js/main.bce8f2e1.chunk.js"
   ]
 }
