@@ -180,7 +180,7 @@ const workExperiences = {
       date: "Jan 2019 – Aug 2019",
       descBullets: [
         "Designed and built technical solutions for various international using MERN Stack",
-        "Deployed projects for clients by setting up CI/CD pipelines using popular technologies such as CircleCi",
+        "Deployed projects for clients by setting up CI/CD pipelines using popular technologies such as CircleCi"
       ]
     }
   ]
