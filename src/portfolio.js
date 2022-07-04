@@ -162,15 +162,25 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Engineer",
+      role: "Junior Software Engineer",
       company: "Sectem Technologies",
       companylogo: require("./assets/images/sectem-logo.png"),
-      date: "Jan 2020 – Jan 2021",
+      date: "Jun 2019 – Jan 2021",
       descBullets: [
         "Designed and built technical solutions as part of a team for various international clients",
         "Worked with both SAAS and On-Premises based product development",
         "Hands on experience with serverless tech stack and microservices architecture",
         "Followed agile methodologies and scrum practices"
+      ]
+    },
+    {
+      role: "Web Developer",
+      company: "Fiverr",
+      companylogo: require("./assets/images/sectem-logo.png"),
+      date: "Jan 2019 – Aug 2019",
+      descBullets: [
+        "Designed and built technical solutions for various international using MERN Stack",
+        "Deployed projects for clients by setting up CI/CD pipelines using popular technologies such as CircleCi",
       ]
     }
   ]
