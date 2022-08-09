@@ -165,7 +165,7 @@ const workExperiences = {
       role: "Junior Software Engineer",
       company: "Sectem Technologies",
       companylogo: require("./assets/images/sectem-logo.png"),
-      date: "Jun 2019 – Jan 2021",
+      date: "Jan 2020 – Jan 2021",
       descBullets: [
         "Designed and built technical solutions as part of a team for various international clients",
         "Worked with both SAAS and On-Premises based product development",
@@ -177,7 +177,7 @@ const workExperiences = {
       role: "Web Developer",
       company: "Fiverr",
       companylogo: require("./assets/images/fiverr-logo.png"),
-      date: "Jan 2019 – Aug 2019",
+      date: "July 2019 – Dec 2019",
       descBullets: [
         "Designed and built technical solutions for various international using MERN Stack",
         "Deployed projects for clients by setting up CI/CD pipelines using popular technologies such as CircleCi"
