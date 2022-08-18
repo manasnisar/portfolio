@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A highly-motivated software engineer with 4 years of experience in designing and coding innovative technical solutions using modern technologies including, but not limited to JavaScript, Golang, MERN Stack, and GCP(Google Cloud Platform)",
   resumeLink:
-    "https://drive.google.com/file/d/1fzoEyz70N3NuA-uM5mjMps2o1khg9eti/view?usp=sharing",
+    "https://drive.google.com/file/d/1hMSrMU-T7kyvVDpTxPDqNX3Lyt3Ol4Ep/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
